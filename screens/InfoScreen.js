@@ -19,10 +19,7 @@ export default function InfoScreen() {
       "¿Abrir WhatsApp?",
       "¿Querés enviarle un mensaje a UNRaf por WhatsApp?",
       [
-        {
-          text: "Cancelar",
-          style: "cancel",
-        },
+        { text: "Cancelar", style: "cancel" },
         {
           text: "Sí",
           onPress: () =>
@@ -72,6 +69,11 @@ export default function InfoScreen() {
         <Ionicons name="logo-whatsapp" size={22} color="white" />
         <Text style={styles.buttonText}>Enviar WhatsApp</Text>
       </TouchableOpacity>
+
+      {/* Crédito al desarrollador */}
+      <View style={styles.footer}>
+        <Text style={styles.footerText}>Developed by Gero 🚀</Text>
+      </View>
     </View>
   );
 }
@@ -107,5 +109,14 @@ const styles = StyleSheet.create({
   },
   whatsapp: {
     backgroundColor: "#25D366",
+  },
+  footer: {
+    marginTop: 40,
+    alignItems: "center",
+  },
+  footerText: {
+    fontSize: 14,
+    color: "#999",
+    fontStyle: "italic",
   },
 });
