@@ -22,7 +22,7 @@ export default function AppNavigator() {
               iconName = "home-outline";
               break;
             case "Noticias":
-              iconName = "newspaper-outline";
+              iconName = "calendar-outline";
               break;
             case "Calendario":
               iconName = "calendar-outline";
