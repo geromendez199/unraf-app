@@ -35,3 +35,21 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Metro bundler cache
+.expo/
+.expo-shared/
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
