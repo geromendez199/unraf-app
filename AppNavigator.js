@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
 
 import InicioScreen from "./screens/InicioScreen";
-import NoticiasScreen from "./screens/NoticiasScreen";
+import NoticiasScreen from "./screens/NoticiasScreen"; // Esta ahora se llama Agenda
 import CalendarioScreen from "./screens/CalendarioScreen";
 import CampusVirtualScreen from "./screens/CampusVirtualScreen";
 import SIUGuaraniScreen from "./screens/SIUGuaraniScreen";
@@ -21,11 +21,11 @@ export default function AppNavigator() {
             case "Inicio":
               iconName = "home-outline";
               break;
-            case "Noticias":
+            case "Agenda":
               iconName = "calendar-outline";
               break;
             case "Calendario":
-              iconName = "calendar-outline";
+              iconName = "calendar-sharp";
               break;
             case "Campus Virtual":
               iconName = "school-outline";
@@ -36,6 +36,8 @@ export default function AppNavigator() {
             case "Info":
               iconName = "information-circle-outline";
               break;
+            default:
+              iconName = "ellipse-outline";
           }
           return <Ionicons name={iconName} size={size} color={color} />;
         },
