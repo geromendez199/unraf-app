@@ -67,8 +67,7 @@ Este proyecto está abierto a mejoras. Podés colaborar con:
 
 ## 📬 Contacto
 
-📧 info@unraf.edu.ar  
-🌐 [www.unraf.edu.ar](https://www.unraf.edu.ar)
+📧 geromendez199@gmail.com
 
 ---
 
